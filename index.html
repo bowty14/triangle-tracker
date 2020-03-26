@@ -10,12 +10,20 @@
 <body>
   <div class="container">
     <h2>What kind of triangle is it?</h2>
-    <label for="side1">Side 1 measurement:</label>
-    <input id="side1" type="numbers">
-    <label for="side2">Side 2 measurement:</label>
-    <input id="side2" type="numbers">
-    <label for="side3">Side 3 measurement:</label>
-    <input id="side3" type="numbers">
+    <form id="measurement">
+      <label for="side1">Side 1 measurement:</label>
+      <input id="side1" type="numbers">
+      <label for="side2">Side 2 measurement:</label>
+      <input id="side2" type="numbers">
+      <label for="side3">Side 3 measurement:</label>
+      <input id="side3" type="numbers">
+    </form>
+    <div id="equilateral"><p>You have a equilateral triangle!</p></div>
+    <div id="isosceles"><p>You have a isosceles triangle!</p></div>
+    <div id="scalene"><p>You have a scalene triagle! </p></div>
+    <div id="noTriagle"><p>Sorry, but this is not a triangle.</p></div>
+
+    <button type="submit" class="btn">Submit</button>
   </div>
 </body>
 </html>
